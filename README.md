@@ -1,2 +1,0 @@
-# WeatherWidget
-Created with CodeSandbox
