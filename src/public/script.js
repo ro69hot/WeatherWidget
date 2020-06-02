@@ -17,15 +17,15 @@ function getData(index) {
     });
 }
 
-buttons[0].addEvenLisener("click", () => {
+buttons[0].addEventListener("click", () => {
   getData(0);
 });
 
-buttons[0].addEvenLisener("click", () => {
+buttons[0].addEventListener("click", () => {
   getData(1);
 });
 
-buttons[0].addEvenLisener("click", () => {
+buttons[0].addEventListener("click", () => {
   console.log("hello 3");
   getData(2);
 });
